@@ -1,6 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
-import { LogoYoutube } from "react-ionicons";
+import {
+  LogoYoutube,
+  LogoInstagram,
+  LogoDiscord,
+  LogoTwitter,
+} from "react-ionicons";
 import "./navbar.css";
 import logo from "../../assets/bayc-logo.png";
 
@@ -33,6 +38,20 @@ const Navbar = () => {
       <div className="bayc__navbar-icons">
         <a>
           <LogoYoutube color={"#fff"} title={"yt"} height="25px" width="25px" />
+        </a>
+        <a>
+          <LogoInstagram
+            color={"#fff"}
+            title={"ig"}
+            height="25px"
+            width="25px"
+          />
+        </a>
+        <a>
+          <LogoDiscord color={"#fff"} title={"dc"} height="25px" width="25px" />
+        </a>
+        <a>
+          <LogoTwitter color={"#fff"} title={"tw"} height="25px" width="25px" />
         </a>
       </div>
     </div>
