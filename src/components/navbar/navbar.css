@@ -1,3 +1,13 @@
-img {
-  max-width: 25vw;
+.bayc__navbar {
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+}
+.bayc__navbar-logo_container img {
+  height: 50px;
+}
+.bayc__navbar-links_container {
+  display: flex;
 }
