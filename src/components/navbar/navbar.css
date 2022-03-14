@@ -4,10 +4,37 @@
   height: 12vh;
   border-bottom: 1px solid #fff;
   align-items: center;
+  padding: 0 8vw;
+  margin: 0 auto;
+  width: 100%;
 }
 .bayc__navbar-logo_container img {
   height: 50px;
 }
+.bayc__navbar-outer-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 .bayc__navbar-links_container {
   display: flex;
+  align-items: center;
+  height: 100%;
+}
+.bayc__navbar-links_container a {
+  font-size: 9px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  padding: 0 1.5rem;
+}
+.bayc__navbar-icons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: 0.2rem;
+  padding-left: 2rem;
+}
+.bayc__navbar-icons a {
+  padding-right: 15px;
 }
