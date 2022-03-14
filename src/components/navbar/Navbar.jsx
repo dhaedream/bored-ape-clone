@@ -1,4 +1,6 @@
 import React from "react";
+import { render } from "react-dom";
+import { LogoYoutube } from "react-ionicons";
 import "./navbar.css";
 import logo from "../../assets/bayc-logo.png";
 
@@ -27,6 +29,11 @@ const Navbar = () => {
         <p>
           <a href="#members">members</a>
         </p>
+      </div>
+      <div className="bayc__navbar-icons">
+        <a>
+          <LogoYoutube color={"#fff"} title={"yt"} height="25px" width="25px" />
+        </a>
       </div>
     </div>
   );
