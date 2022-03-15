@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { render } from "react-dom";
 import {
   LogoYoutube,
@@ -8,6 +8,7 @@ import {
 } from "react-ionicons";
 import "./navbar.css";
 import logo from "../../assets/bayc-logo.png";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -70,6 +71,22 @@ const Navbar = () => {
             />
           </a>
         </div>
+      </div>
+
+      <div className="hambMenu">
+        {dropMenu ? (
+          <RiCloseLine
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(false)}
+          />
+        ) : (
+          <RiMenu3Line
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(true)}
+          />
+        )}
       </div>
     </div>
   );
