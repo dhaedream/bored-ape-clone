@@ -24,10 +24,14 @@ const Feature = () => {
         </div>
       </div>
       <div className="bayc__welcome-img_container">
-        <img src={ape1} alt="ape1" />
-        <img src={ape2} alt="ape2" />
-        <img src={ape3} alt="ape3" />
-        <img src={ape4} alt="ape4" />
+        <div className="bayc__welcome-img_row1">
+          <img src={ape1} alt="ape1" />
+          <img src={ape2} alt="ape2" />
+        </div>
+        <div className="bayc__welcome-img_row2">
+          <img src={ape3} alt="ape3" />
+          <img src={ape4} alt="ape4" />
+        </div>
       </div>
     </div>
   );
