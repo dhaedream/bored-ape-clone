@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,500;1,600;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
   background: black;
   color: white;
   max-width: 100%;
-  font-family: ;
+  font-family: Montserrat;
 }
 a {
   color: unset;
