@@ -39,7 +39,7 @@
 .bayc__navbar-icons a {
   padding-right: 15px;
 }
-.hambMenu {
+.bayc__navbar-hambMenu {
   display: none;
 }
 @media screen and (max-width: 991.98px) {
@@ -64,7 +64,26 @@
   .bayc__navbar-links_container {
     display: none;
   }
-  .hambMenu {
+  .bayc__navbar-hambMenu {
     display: flex;
+  }
+
+  .bayc__navbar-dropmenu_container {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding-top: 1rem;
+    padding-right: 5vw;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 3rem;
+    min-width: 200px;
+    border-radius: 5px;
+  }
+  .bayc__navbar-dropmenu_container a {
+    font-size: 9px;
   }
 }

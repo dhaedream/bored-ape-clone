@@ -10,6 +10,29 @@ import "./navbar.css";
 import logo from "../../assets/bayc-logo.png";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
+const Menu = () => (
+  <>
+    <p>
+      <a href="#buy-an-ape">BUY AN APE</a>
+    </p>
+    <p>
+      <a href="#roadmap">ROADMAP</a>
+    </p>
+    <p>
+      <a href="#team">TEAM</a>
+    </p>
+    <p>
+      <a href="#gallery">GALLERY</a>
+    </p>
+    <p>
+      <a href="#provenance">PROVENANCE</a>
+    </p>
+    <p>
+      <a href="#members">MEMBERS</a>
+    </p>
+  </>
+);
+
 const Navbar = () => {
   const [dropMenu, setDropMenu] = useState(false);
   return (
@@ -19,24 +42,7 @@ const Navbar = () => {
       </div>
       <div className="bayc__navbar-outer-container">
         <div className="bayc__navbar-links_container">
-          <p>
-            <a href="#buy-an-ape">BUY AN APE</a>
-          </p>
-          <p>
-            <a href="#roadmap">ROADMAP</a>
-          </p>
-          <p>
-            <a href="#team">TEAM</a>
-          </p>
-          <p>
-            <a href="#gallery">GALLERY</a>
-          </p>
-          <p>
-            <a href="#provenance">PROVENANCE</a>
-          </p>
-          <p>
-            <a href="#members">MEMBERS</a>
-          </p>
+          <Menu />
         </div>
         <div className="bayc__navbar-icons">
           <a>
@@ -88,7 +94,7 @@ const Navbar = () => {
             onClick={() => setDropMenu(true)}
           />
         )}
-        {toggleMenu && (
+        {dropMenu && (
           <div className="bayc__navbar-dropmenu_container">
             <Menu />
           </div>
