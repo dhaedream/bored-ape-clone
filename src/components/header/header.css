@@ -4,3 +4,13 @@
   width: 85%;
   height: auto;
 }
+@media screen and (max-width: 576px) {
+  .bayc__header-img_container img {
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .bayc__header-img_container img {
+    width: 90%;
+  }
+} */
