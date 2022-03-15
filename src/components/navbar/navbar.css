@@ -27,7 +27,7 @@
   font-family: Montserrat;
   font-weight: 500;
   letter-spacing: 1.2px;
-  padding: 0 1.5rem;
+  padding: 0 0.8rem;
 }
 .bayc__navbar-icons {
   display: flex;
@@ -38,4 +38,22 @@
 }
 .bayc__navbar-icons a {
   padding-right: 15px;
+}
+@media screen and (max-width: 991.98px) {
+  .bayc__navbar-icons {
+    display: none;
+  }
+  .bayc__navbar-outer-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .bayc__navbar-links_container {
+    padding-left: 1rem;
+  }
+  .bayc__navbar-links_container a {
+    font-size: 8.8px;
+    padding: 0 0.4rem;
+    font-weight: 500;
+  }
 }
