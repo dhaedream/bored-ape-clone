@@ -78,13 +78,13 @@ const Navbar = () => {
         {dropMenu ? (
           <RiCloseLine
             color="#fff"
-            size={15}
+            size={30}
             onClick={() => setDropMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="#fff"
-            size={15}
+            size={30}
             onClick={() => setDropMenu(true)}
           />
         )}

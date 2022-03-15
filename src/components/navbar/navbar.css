@@ -60,3 +60,11 @@
     font-weight: 500;
   }
 }
+@media screen and (max-width: 768px) {
+  .bayc__navbar-links_container {
+    display: none;
+  }
+  .hambMenu {
+    display: flex;
+  }
+}
