@@ -74,7 +74,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hambMenu">
+      <div className="bayc__navbar-hambMenu">
         {dropMenu ? (
           <RiCloseLine
             color="#fff"
@@ -87,6 +87,11 @@ const Navbar = () => {
             size={30}
             onClick={() => setDropMenu(true)}
           />
+        )}
+        {toggleMenu && (
+          <div className="bayc__navbar-dropmenu_container">
+            <Menu />
+          </div>
         )}
       </div>
     </div>
