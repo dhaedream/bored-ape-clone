@@ -11,6 +11,7 @@ import logo from "../../assets/bayc-logo.png";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
+  const [dropMenu, setDropMenu] = useState(false);
   return (
     <div className="bayc__navbar">
       <div className="bayc__navbar-logo_container">
@@ -77,14 +78,14 @@ const Navbar = () => {
         {dropMenu ? (
           <RiCloseLine
             color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(false)}
+            size={15}
+            onClick={() => setDropMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(true)}
+            size={15}
+            onClick={() => setDropMenu(true)}
           />
         )}
       </div>

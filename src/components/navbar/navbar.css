@@ -39,6 +39,9 @@
 .bayc__navbar-icons a {
   padding-right: 15px;
 }
+.hambMenu {
+  display: none;
+}
 @media screen and (max-width: 991.98px) {
   .bayc__navbar-icons {
     display: none;
