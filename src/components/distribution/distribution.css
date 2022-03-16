@@ -1,4 +1,5 @@
 .bayc__distribution {
+  display: flex;
   padding: 0 8vw;
   height: 18vh;
 }
@@ -10,16 +11,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
   min-width: 60vw;
   padding-right: 5vw;
 }
 .bayc__distribution-top h2 {
   padding-bottom: 0.4rem;
 }
+.bayc__distribution-bottom_right-wrap {
+  display: flex;
+}
+
 .bayc__distribution-bottom_right {
   align-self: flex-end;
-}
-.bayc__distribution-bottom_right {
   font-size: 13px;
 }
 
