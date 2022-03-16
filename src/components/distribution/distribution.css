@@ -27,13 +27,16 @@
   font-size: 13px;
 }
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .bayc__distribution {
     height: 16vh;
   }
   .bayc__distribution-container {
     flex-direction: column;
   }
+}
+
+/*
   .bayc__distribution-main {
     padding-right: 0;
   }
