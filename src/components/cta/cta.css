@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,500;1,600;1,900&display=swap");
+
 .bayc__cta {
   display: flex;
   padding: 5vh 8vw;
@@ -60,7 +62,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 30vh;
+    height: 27vh;
     padding: 3vh 4vw;
   }
   .bayc__cta-card h3 {

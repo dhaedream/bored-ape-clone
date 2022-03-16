@@ -7,6 +7,7 @@ import {
   Welcome,
   Distribution,
   Cta,
+  Line,
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <Welcome />
       <Distribution />
       <Cta />
+      <Line />
     </div>
   );
 };
