@@ -10,9 +10,11 @@ const Cta = () => {
           The initial sale has sold out. To get your Bored Ape, check out the
           collection on OpenSea.
         </p>
-        <button className="bayc__cta-card_button" type="button">
-          BUY AN APE ON OPENSEA
-        </button>
+        <div className="bayc__cta-card_button-wrap">
+          <button className="bayc__cta-card_button" type="button">
+            BUY AN APE ON OPENSEA
+          </button>
+        </div>
       </div>
     </div>
   );
