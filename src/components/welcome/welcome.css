@@ -34,11 +34,11 @@
 @media screen and (max-width: 992px) {
   .bayc__welcome {
     flex-direction: column;
-    padding: 5vh 6vw;
+    padding: 5vh 8vw;
     margin: 0 auto;
   }
   .bayc__welcome-feature_container {
-    min-width: 85vw;
+    min-width: 80vw;
   }
   .bayc__welcome-img_container {
     flex-direction: column;
@@ -48,8 +48,13 @@
     min-width: 100%;
     padding-right: 0;
   }
+  .bayc__welcome-img_row1,
+  .bayc__welcome-img_row2 {
+    display: flex;
+    justify-content: space-between;
+  }
   .bayc__welcome-img_container img {
-    min-width: 40vw;
+    min-width: 42vw;
     padding: 0.28rem;
   }
   .bayc__welcome-feature-text {
@@ -66,5 +71,9 @@
   .bayc__welcome {
     /* margin: 1vh 8vh; */
     padding: 3vh 5vw;
+  }
+  .bayc__welcome-img_container img {
+    min-width: 45vw;
+    padding: 0.2rem;
   }
 }
