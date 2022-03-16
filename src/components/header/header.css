@@ -4,6 +4,11 @@
   width: 85%;
   height: auto;
 }
+@media screen and (max-width: 992px) {
+  .bayc__header-img_container img {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 576px) {
   .bayc__header-img_container img {
     width: 100%;

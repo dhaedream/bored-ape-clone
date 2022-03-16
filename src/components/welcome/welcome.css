@@ -34,11 +34,23 @@
 @media screen and (max-width: 992px) {
   .bayc__welcome {
     flex-direction: column;
-    padding: 5vh 10vw;
+    padding: 5vh 6vw;
     margin: 0 auto;
   }
   .bayc__welcome-feature_container {
-    max-width: 80vw;
+    min-width: 85vw;
+  }
+  .bayc__welcome-img_container {
+    flex-direction: column;
+    padding-top: 2vh;
+  }
+  .bayc__welcome-feature_container {
+    min-width: 100%;
+    padding-right: 0;
+  }
+  .bayc__welcome-img_container img {
+    min-width: 40vw;
+    padding: 0.28rem;
   }
   .bayc__welcome-feature-text {
     text-align: justify;
@@ -48,5 +60,11 @@
       display: inline-block;
       width: 100%;
     }
+  }
+}
+@media (max-width: 575.98px) {
+  .bayc__welcome {
+    /* margin: 1vh 8vh; */
+    padding: 3vh 5vw;
   }
 }
