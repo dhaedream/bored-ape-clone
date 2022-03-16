@@ -10,7 +10,9 @@ const Feature = () => {
     <div className="bayc__welcome">
       <div className="bayc__welcome-feature_container">
         <div className="bayc__welcome-feature_title">
-          <h1>WELCOME TO THE BORED APE YACHT CLUB</h1>
+          <h1>
+            WELCOME TO THE <br /> BORED APE YACHT CLUB
+          </h1>
         </div>
         <div className="bayc__welcome-feature-text">
           <p>

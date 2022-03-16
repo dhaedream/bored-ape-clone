@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,500;1,600;1,900&display=swap");
+
 .bayc__welcome {
   /* margin: 1vh 8vh; */
-  padding: 5vh 8vwstyling;
+  padding: 5vh 8vw;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -14,7 +16,6 @@
 .bayc__welcome-feature_title h1 {
   font-family: Montserrat;
   font-weight: 900;
-  max-width: 30vw;
   padding-bottom: 2vh;
 }
 .bayc__welcome-feature-text p {
@@ -27,5 +28,25 @@
   flex-wrap: wrap;
 }
 .bayc__welcome-img_container img {
-  max-width: 10vw;
+  max-width: 11vw;
+  padding: 0.28rem;
+}
+@media screen and (max-width: 992px) {
+  .bayc__welcome {
+    flex-direction: column;
+    padding: 5vh 10vw;
+    margin: 0 auto;
+  }
+  .bayc__welcome-feature_container {
+    max-width: 80vw;
+  }
+  .bayc__welcome-feature-text {
+    text-align: justify;
+    /* margin-bottom: -1em; */
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+  }
 }
