@@ -59,12 +59,12 @@
   }
   .bayc__welcome-feature-text {
     text-align: justify;
-    /* margin-bottom: -1em; */
-    &:after {
-      content: "";
-      display: inline-block;
-      width: 100%;
-    }
+  }
+  /* margin-bottom: -1em; */
+  .bayc__welcome-feature-text:after {
+    content: "";
+    /* display: inline-block; */
+    width: 100%;
   }
 }
 @media (max-width: 575.98px) {

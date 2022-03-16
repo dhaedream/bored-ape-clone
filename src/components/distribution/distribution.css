@@ -1,6 +1,6 @@
 .bayc__distribution {
   display: flex;
-  padding: 0 8vw;
+  padding: 0.5vh 8vw;
   height: 18vh;
 }
 .bayc__distribution-container {
@@ -45,7 +45,7 @@
   .bayc__distribution-bottom {
     text-align: justify;
   }
-  .bayc__distribution-bottom::after {
+  .bayc__distribution-bottom:after {
     content: "";
     width: 100%;
   }
