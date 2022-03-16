@@ -3,8 +3,8 @@ import "./distribution.css";
 
 const Distribution = () => {
   return (
-    <div>
-      <div className="bayc__distribution-container">
+    <div className="bayc__distribution-container">
+      <div className="bayc__distribution-main">
         <div className="bayc__distribution-top">
           <h2>FAIR DISTRIBUTION</h2>
           <p>(BONDING CURVES ARE A PONZI)</p>
@@ -15,13 +15,12 @@ const Distribution = () => {
             There are no price tiers; BAYC membership costs the same for
             everyone.
           </p>
-          <p className="bayc__distribution-bottom_right">
-            Note: Thirty apes are being withheld from the sale. These will be
-            used for giveaways, puzzle rewards—and for the creators' BAYC
-            memberships.
-          </p>
         </div>
       </div>
+      <p className="bayc__distribution-bottom_right">
+        Note: Thirty apes are being withheld from the sale. These will be used
+        for giveaways, puzzle rewards—and for the creators' BAYC memberships.
+      </p>
     </div>
   );
 };

@@ -1,0 +1,11 @@
+.bayc__distribution-container {
+  padding: 0 8vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+.bayc__distribution-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
