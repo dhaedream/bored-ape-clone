@@ -35,13 +35,13 @@
   }
   .bayc__distribution-bottom {
     text-align: justify;
-    /* margin-bottom: -1em; */
-    &:after {
-      content: "";
-      display: inline-block;
-      width: 100%;
-    }
   }
+  .bayc__distribution-bottom::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
   .bayc__distribution-top h2 {
     font-size: 2rem;
     letter-spacing: -0.05rem;
@@ -55,12 +55,12 @@
   }
   .bayc__distribution-bottom_right-wrap {
     text-align: justify;
-    /* margin-bottom: -1em; */
-    &:after {
-      content: "";
-      display: inline-block;
-      width: 100%;
-    }
+  }
+  /* margin-bottom: -1em; */
+  .bayc__distribution-bottom_right-wrap::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
   }
 }
 @media (max-width: 575.98px) {
