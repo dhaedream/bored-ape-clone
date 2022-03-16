@@ -1,6 +1,6 @@
 .bayc__distribution-container {
   padding: 0 8vw;
-  height: 20vh;
+  height: 18vh;
   display: flex;
   flex-direction: row;
 }
@@ -8,4 +8,30 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 60vw;
+  padding-right: 5vw;
+}
+.bayc__distribution-top h2 {
+  padding-bottom: 0.4rem;
+}
+.bayc__distribution-bottom_right {
+  align-self: flex-end;
+}
+.bayc__distribution-bottom_right {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 992px) {
+  .bayc__distribution-container {
+    padding: 0 8vw;
+    flex-direction: column;
+  }
+  .bayc__distribution-top h2 {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+  .bayc__distribution-top p {
+    font-size: 1.2rem;
+    padding-bottom: 2.5vh;
+  }
 }
