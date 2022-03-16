@@ -26,13 +26,20 @@
   align-self: flex-end;
   font-size: 13px;
 }
+.bayc__distribution-bottom_left {
+  line-height: 1.5rem;
+}
 
 @media screen and (max-width: 992px) {
   .bayc__distribution {
     height: 16vh;
+    flex-direction: column;
   }
   .bayc__distribution-container {
     flex-direction: column;
+  }
+  .bayc__distribution-bottom_left {
+    padding: 2vh 0;
   }
 }
 
@@ -47,7 +54,6 @@
     content: "";
     display: flex;
     width: 100%;
-    clear: right;
   }
 
   .bayc__distribution-top h2 {
