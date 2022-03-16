@@ -51,23 +51,54 @@
 @media screen and (max-width: 992px) {
   .bayc__cta {
     flex-direction: column;
+    /* justify-content: space-around; */
     padding: 5vh 8vw;
     margin: 0 auto;
     margin-top: 3rem;
   }
   .bayc__cta-card {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 30vh;
-    padding: 0 2vw;
+    padding: 3vh 4vw;
   }
   .bayc__cta-card h3 {
-    flex: 0;
+    display: flex;
+    flex: 1;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-weight: 800;
     font-size: 1.5rem;
-    padding: 2rem 0 0.5rem 0;
+    padding: 0 0 0.5rem 0;
+  }
+  .bayc__cta-card p {
+    display: flex;
+    flex: 2;
+    padding: 0 4vw;
+    line-height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .bayc__cta-card_button-wrap {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+  }
+  .bayc__cta-card_button {
+    background-color: black;
+    border-radius: 8px;
+    color: #bfc500;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 1.2rem 15px;
+    margin: auto auto;
+    transition: 0.3s;
+    width: 90%;
+    font-weight: 600;
+    /* max-width: 180px; */
   }
 }
