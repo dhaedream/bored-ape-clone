@@ -65,3 +65,13 @@
     width: 100%;
   }
 }
+@media (max-width: 575.98px) {
+  .bayc__specs {
+    /* margin: 1vh 8vh; */
+    padding: 3vh 5vw;
+  }
+  #apeGif {
+    min-width: 45vw;
+    padding: 0;
+  }
+}
