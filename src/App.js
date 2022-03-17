@@ -20,6 +20,7 @@ export const App = () => {
       <Cta />
       <Line />
       <Specs />
+      <Line />
     </div>
   );
 };

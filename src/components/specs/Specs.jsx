@@ -1,6 +1,7 @@
 import React from "react";
 import "./specs.css";
-import ape4 from "../../assets/ape4.png";
+// import ape4 from "../../assets/ape4.png";
+import apeGif from "../../assets/mystery-ape.gif";
 
 const Specs = () => {
   return (
@@ -28,7 +29,12 @@ const Specs = () => {
       </div>
       <div className="bayc__specs-gif_container">
         <div className="bayc__specs-gif_container_inner">
-          <img className="bayc__specs-gif" id="apeGif" src={ape4} alt="ape4" />
+          <img
+            className="bayc__specs-gif"
+            id="apeGif"
+            src={apeGif}
+            alt="ape gif"
+          />
         </div>
       </div>
     </div>
