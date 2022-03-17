@@ -1,14 +1,13 @@
 import React from "react";
 import "./specs.css";
+import ape4 from "../../assets/ape4.png";
 
 const Specs = () => {
   return (
     <div className="bayc__specs">
       <div className="bayc__specs-feature_container">
         <div className="bayc__specs-feature_title">
-          <h1>
-            THE <br /> SPECS
-          </h1>
+          <h1>THE SPECS</h1>
         </div>
         <div className="bayc__specs-feature-text">
           <p>
