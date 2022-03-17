@@ -1,16 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./specs.css";
-// import "react-gif-player/src/GifPlayer";
-
-// var React = require("react");
-// var ReactDOM = require("react-dom");
-var GifPlayer = require("react-gif-player");
 
 const Specs = () => {
-  //   var React = require("react");
-  //   var ReactDOM = require("react-dom");
-  //   var GifPlayer = require("react-gif-player");
   return (
     <div className="bayc__specs">
       <div className="bayc__specs-feature_container">
@@ -38,11 +29,7 @@ const Specs = () => {
       </div>
       <div className="bayc__specs-gif_container">
         <div className="bayc__specs-gif_container_inner">
-          {/* <img className="bayc__specs-gif" id="apeGif" src={ape4} alt="ape4" /> */}
-          <GifPlayer
-            gif="../../assets/mystery-ape.gif"
-            still="../../assets/ape4.png"
-          />
+          <img className="bayc__specs-gif" id="apeGif" src={ape4} alt="ape4" />
         </div>
       </div>
     </div>
