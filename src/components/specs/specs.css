@@ -11,7 +11,7 @@
   max-width: 60vw;
   padding-right: 5vw;
 }
-.bayc__specs-feature_title h1 {
+.bayc__specs h1 {
   font-family: Montserrat;
   font-weight: 900;
   padding-bottom: 2vh;
@@ -26,4 +26,42 @@
 }
 #apeGif {
   width: 25vw;
+}
+@media screen and (max-width: 992px) {
+  .bayc__specs {
+    flex-direction: column;
+    padding: 5vh 8vw;
+    margin: 0 auto;
+  }
+  .bayc__specs-feature_container {
+    min-width: 80vw;
+  }
+  .bayc__specs-img_container {
+    flex-direction: column;
+    padding-top: 2vh;
+  }
+  .bayc__specs-feature_container {
+    min-width: 100%;
+    padding-right: 0;
+  }
+  .bayc__specs-gif_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 100%;
+    height: auto;
+  }
+  #apeGif {
+    width: 83vw;
+  }
+  .bayc__specs-feature-text {
+    text-align: justify;
+  }
+  /* margin-bottom: -1em; */
+  .bayc__specs-feature-text:after {
+    content: "";
+    /* display: inline-block; */
+    width: 100%;
+  }
 }
