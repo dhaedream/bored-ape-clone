@@ -34,7 +34,6 @@
   flex: 1;
   justify-content: center;
   align-items: center;
-  /* margin: 0 auto; */
 }
 .bayc__cta-card_button {
   background-color: black;
@@ -48,12 +47,10 @@
   transition: 0.3s;
   width: 75%;
   font-weight: 600;
-  /* max-width: 180px; */
 }
 @media screen and (max-width: 992px) {
   .bayc__cta {
     flex-direction: column;
-    /* justify-content: space-around; */
     padding: 5vh 8vw;
     margin: 0 auto;
     margin-top: 3rem;
@@ -62,7 +59,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 27vh;
+    height: fit-content;
     padding: 3vh 4vw;
   }
   .bayc__cta-card h3 {
@@ -117,6 +114,5 @@
     transition: 0.3s;
     width: 100%;
     font-weight: 600;
-    /* max-width: 180px; */
   }
 }
