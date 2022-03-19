@@ -1,17 +1,17 @@
-.bayc__specs {
+.bayc__bath {
   /* margin: 1vh 8vh; */
   padding: 5vh 8vw;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
-.bayc__specs-feature_container {
+.bayc__bath-feature_container {
   display: flex;
   flex-direction: column;
-  max-width: 60vw;
+  max-width: 70vw;
   padding-right: 5vw;
 }
-.bayc__specs h1 {
+.bayc__bath h1 {
   font-family: Montserrat;
   font-weight: 900;
   padding-bottom: 2vh;
@@ -20,25 +20,25 @@
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
-.bayc__specs-gif_container {
+.bayc__bath-img_container {
   margin: auto 0;
-  max-width: 30vw;
+  max-width: 20vw;
 }
-#apeGif {
-  width: 25vw;
+.bayc__bath-img {
+  width: 12vw;
 }
 @media screen and (max-width: 992px) {
-  .bayc__specs {
+  .bayc__bath {
     flex-direction: column;
     padding: 5vh 8vw;
     margin: 0 auto;
   }
-  .bayc__specs-feature_container {
-    min-width: 80vw;
+  .bayc__bath-feature_container {
+    min-width: 85vw;
   }
-  .bayc__specs-img_container {
+  .bayc__bath-img_container {
     flex-direction: column;
-    padding-top: 2vh;
+    padding-top: 4vh;
   }
   .bayc__specs-feature_container {
     min-width: 100%;

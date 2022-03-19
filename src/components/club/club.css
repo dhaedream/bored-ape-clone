@@ -11,8 +11,8 @@
   max-width: 70vw;
   /* padding-right: 5vw; */
 }
-.bayc__club-feature h1 {
-  padding-bottom: 1.5rem;
+.bayc__club h1 {
+  margin-bottom: 2vh;
 }
 .bayc__club-feature p {
   padding-bottom: 1.5rem;

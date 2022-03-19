@@ -27,7 +27,7 @@ const Bathroom = () => {
           </p>
         </div>
       </div>
-      <div className="bayc__bath-gif_container">
+      <div className="bayc__bath-img_container">
         <img className="bayc__bath-img" src={toilet} alt="toilet" />
       </div>
     </div>
