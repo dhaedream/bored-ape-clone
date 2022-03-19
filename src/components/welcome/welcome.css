@@ -24,6 +24,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 30vw;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
 }
 .bayc__welcome-img_container img {
   max-width: 11vw;
