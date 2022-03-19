@@ -22,6 +22,7 @@ export const App = () => {
       <Specs />
       <Line />
       <Club />
+      <Line />
     </div>
   );
 };
