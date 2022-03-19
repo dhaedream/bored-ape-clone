@@ -14,3 +14,27 @@
 .bayc__club-feature h1 {
   padding-bottom: 1.5rem;
 }
+.bayc__club-feature p {
+  padding-bottom: 1.5rem;
+}
+.bayc__club-gallery {
+  display: flex;
+  flex-direction: row;
+}
+.bayc__club-gallery_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  max-width: 17vw;
+}
+.bayc__club-gallery_content img {
+  width: 8vw;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+.bayc__club-gallery_content p {
+  width: 13vw;
+  justify-self: flex-end;
+}
