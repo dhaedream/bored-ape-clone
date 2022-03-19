@@ -9,8 +9,8 @@ import icon5 from "../../assets/icon5.png";
 const Club = () => {
   return (
     <div className="bayc__club">
+      <h1>WELCOME TO THE CLUB</h1>
       <div className="bayc__club-feature">
-        <h1>WELCOME TO THE CLUB</h1>
         <p>
           When you buy a Bored Ape, you’re not simply buying an avatar or a
           provably-rare piece of art. You are gaining membership access to a
