@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-// import Welcome from "./containers/welcome/Welcome";
 import {
   Navbar,
   Header,
@@ -8,7 +7,7 @@ import {
   Distribution,
   Cta,
   Line,
-  Specs,
+  Specs
 } from "./components/index.js";
 export const App = () => {
   return (
