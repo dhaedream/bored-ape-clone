@@ -2,7 +2,7 @@ import React from "react";
 import "./bathroom.css";
 import toilet from "../../assets/toilet.png";
 
-const Specs = () => {
+const Bathroom = () => {
   return (
     <div className="bayc__bath">
       <div className="bayc__bath-feature_container">
@@ -11,33 +11,27 @@ const Specs = () => {
         </div>
         <div className="bayc__bath-feature-text">
           <p>
-            Each Bored Ape is unique and programmatically generated from over
-            170 possible traits, including expression, headwear, clothing, and
-            more. All apes are dope, but some are rarer than others.
+            The BAYC Bathroom will become operational once the presale period is
+            over. It contains a canvas accessible only to wallets containing at
+            least one ape. Like any good dive bar bathroom, this is the place to
+            draw, scrawl, or write expletives.
             <br />
             <br />
-            The apes are stored as ERC-721 tokens on the Ethereum blockchain and
-            hosted on IPFS. (See Record and Proof.) Purchasing an ape costs 0.08
-            ETH.
+            Each ape-holder will be able to paint a pixel on the bathroom wall
+            every fifteen minutes. Think of it as a collaborative art experiment
+            for the cryptosphere. A members-only canvas for the discerning minds
+            of crypto twitter.
             <br />
             <br />
-            To access members-only areas such as THE BATHROOM, Apeholders will
-            need to be signed into their Metamask Wallet.
+            We're pretty sure it's going to be full of dicks.
           </p>
         </div>
       </div>
-      <div className="bayc__specs-gif_container">
-        <div className="bayc__specs-gif_container_inner">
-          <img
-            className="bayc__specs-gif"
-            id="apeGif"
-            src={toilet}
-            alt="ape gif"
-          />
-        </div>
+      <div className="bayc__bath-gif_container">
+        <img className="bayc__bath-img" src={toilet} alt="toilet" />
       </div>
     </div>
   );
 };
 
-export default Specs;
+export default Bathroom;

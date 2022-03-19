@@ -8,7 +8,8 @@ import {
   Cta,
   Line,
   Specs,
-  Club
+  Club,
+  Bathroom
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
       <Line />
       <Club />
       <Line />
+      <Bathroom />
     </div>
   );
 };
