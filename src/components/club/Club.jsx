@@ -21,27 +21,47 @@ const Club = () => {
       </div>
       <div className="bayc__club-gallery">
         <div className="bayc__club-gallery_content">
-          <img src={icon1} alt="" />
-          <p>10,000 Provably-rare Bored Ape tokens</p>
+          <div className="bayc__club-gallery_content-pic">
+            <img src={icon1} alt="" />
+          </div>
+          <div className="bayc__club-gallery_content-para">
+            <p>10,000 Provably-rare Bored Ape tokens</p>
+          </div>
         </div>
         <div className="bayc__club-gallery_content">
-          <img src={icon2} alt="" />
-          <p>Fair Launch, fair distribution: All apes cost 0.08 ETH</p>
+          <div className="bayc__club-gallery_content-pic">
+            <img src={icon2} alt="" />
+          </div>
+          <div className="bayc__club-gallery_content-para">
+            <p>Fair Launch, fair distribution: All apes cost 0.08 ETH</p>
+          </div>
         </div>
         <div className="bayc__club-gallery_content">
-          <img src={icon3} alt="" />
-          <p>
-            Ownership and commercial usage rights given to the consumer over
-            their NFTs
-          </p>
+          <div className="bayc__club-gallery_content-pic">
+            <img src={icon3} alt="" />
+          </div>
+          <div className="bayc__club-gallery_content-para">
+            <p>
+              Ownership and commercial usage rights given to the consumer over
+              their NFTs
+            </p>
+          </div>
         </div>
         <div className="bayc__club-gallery_content">
-          <img src={icon4} alt="" />
-          <p>The Bathroom: A member's-only graffiti board</p>
+          <div className="bayc__club-gallery_content-pic">
+            <img src={icon4} alt="" />
+          </div>
+          <div className="bayc__club-gallery_content-para">
+            <p>The Bathroom: A member's-only graffiti board</p>
+          </div>
         </div>
         <div className="bayc__club-gallery_content">
-          <img src={icon5} alt="" />
-          <p>Gain additional benefits through roadmap activations</p>
+          <div className="bayc__club-gallery_content-pic">
+            <img src={icon5} alt="" />
+          </div>
+          <div className="bayc__club-gallery_content-para">
+            <p>Gain additional benefits through roadmap activations</p>
+          </div>
         </div>
       </div>
     </div>

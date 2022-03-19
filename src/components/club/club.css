@@ -28,13 +28,25 @@
   align-items: center;
   flex: 1;
   max-width: 17vw;
+  height: 40vh;
+}
+.bayc__club-gallery_content-pic {
+  display: flex;
+  justify-content: center;
+  height: 22vh;
+  padding-bottom: 1rem;
 }
 .bayc__club-gallery_content img {
-  width: 8vw;
-  margin-right: 2rem;
+  display: flex;
+  width: auto;
+  margin-right: 3rem;
   padding-bottom: 2rem;
+}
+.bayc__club-gallery_content-para {
+  display: flex;
+  align-items: flex-start;
+  height: 14vh;
 }
 .bayc__club-gallery_content p {
   width: 13vw;
-  justify-self: flex-end;
 }
