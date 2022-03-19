@@ -30,7 +30,7 @@
 @media screen and (max-width: 992px) {
   .bayc__bath {
     flex-direction: column;
-    padding: 5vh 8vw;
+    padding: 1vh 8vw;
     margin: 0 auto;
   }
   .bayc__bath-feature_container {
@@ -40,11 +40,11 @@
     flex-direction: column;
     padding-top: 4vh;
   }
-  .bayc__specs-feature_container {
+  .bayc__bath-feature_container {
     min-width: 100%;
     padding-right: 0;
   }
-  .bayc__specs-gif_container {
+  .bayc__bath-img_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,16 +52,16 @@
     width: 100%;
     height: auto;
   }
-  #apeGif {
-    width: 83vw;
+  .bayc__bath-img {
+    width: 15vw;
+    margin: 0 auto;
   }
-  .bayc__specs-feature-text {
+  .bayc__bath-feature-text {
     text-align: justify;
   }
   /* margin-bottom: -1em; */
-  .bayc__specs-feature-text:after {
+  .bayc__bath-feature-text:after {
     content: "";
-    /* display: inline-block; */
     width: 100%;
   }
 }
