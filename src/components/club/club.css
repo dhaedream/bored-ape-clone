@@ -1,0 +1,16 @@
+.bayc__club {
+  /* margin: 1vh 8vh; */
+  padding: 5vh 8vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bayc__club-feature {
+  display: flex;
+  flex-direction: column;
+  max-width: 70vw;
+  /* padding-right: 5vw; */
+}
+.bayc__club-feature h1 {
+  padding-bottom: 1.5rem;
+}
