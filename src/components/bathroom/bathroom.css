@@ -66,12 +66,19 @@
   }
 }
 @media (max-width: 575.98px) {
-  .bayc__specs {
+  .bayc__bath {
     /* margin: 1vh 8vh; */
     padding: 3vh 5vw;
   }
-  #apeGif {
-    min-width: 45vw;
-    padding: 0;
+  .bayc__bath-img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+  }
+  .bayc__bath-img {
+    margin: 0 5vw;
+    height: 35vh;
+    width: auto;
   }
 }

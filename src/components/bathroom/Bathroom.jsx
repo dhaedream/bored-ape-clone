@@ -23,7 +23,7 @@ const Bathroom = () => {
             of crypto twitter.
             <br />
             <br />
-            We're pretty sure it's going to be full of dicks.
+            We're pretty sure it's going to be full of sticks.
           </p>
         </div>
       </div>
