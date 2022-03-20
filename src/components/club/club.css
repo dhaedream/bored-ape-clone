@@ -50,6 +50,14 @@
 .bayc__club-gallery_content p {
   width: 13vw;
 }
+@media screen and (max-width: 992px) {
+  .bayc__club-gallery {
+    padding-bottom: 3vh;
+  }
+  .bayc__club-gallery_content-para {
+    height: 18vh;
+  }
+}
 @media (max-width: 575.98px) {
   .bayc__club {
     padding: 3vh 5vw;
