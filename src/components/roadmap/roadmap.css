@@ -76,8 +76,7 @@
   }
   .bayc__road-content_container {
     width: 100%;
-    padding-right: 0;
-    padding-left: 1vw;
+    padding: 1vh 2vw;
   }
   .bayc__road {
     flex-direction: column;
