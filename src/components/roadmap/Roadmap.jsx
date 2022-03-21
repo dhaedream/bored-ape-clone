@@ -20,9 +20,7 @@ const Roadmap = () => {
           </p>
         </div>
       </div>
-      {/* <div className="bayc__road-img_container">
-        <img className="bayc__road-img" src={toilet} alt="toilet" />
-      </div> */}
+      <div className="bayc__road-content_container"></div>
     </div>
   );
 };
