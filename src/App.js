@@ -31,6 +31,7 @@ export const App = () => {
       <Roadmap />
       <Line />
       <Community />
+      <Line />
     </div>
   );
 };

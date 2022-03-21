@@ -18,10 +18,10 @@ const Community = () => {
         </div>
       </div>
       <div className="bayc__comm-button_container">
-        <button className="bayc__comm-button1" type="button">
+        <button className="bayc__comm-button" type="button">
           NFTEXP.IO
         </button>
-        <button className="bayc__comm-button2" type="button">
+        <button className="bayc__comm-button" type="button">
           RARITY.TOOLS
         </button>
       </div>
