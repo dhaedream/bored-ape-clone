@@ -38,7 +38,7 @@
   flex-direction: row;
   height: auto;
   border: 1px solid rgb(255, 133, 133);
-  padding-left: 3vw;
+  padding-left: 2vw;
   padding-bottom: 1vh;
 }
 .bayc__road-content_span-container {
@@ -46,6 +46,11 @@
   height: 60px;
   border: 1px solid #fff;
 }
+.bayc__road-yellow-box {
+  background: #bfc500;
+  width: 27vw;
+  height: 27vw;
+}
 .bayc__road-shirt {
-  width: 25vw;
+  width: 27vw;
 }
