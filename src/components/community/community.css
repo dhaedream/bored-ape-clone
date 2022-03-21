@@ -56,3 +56,20 @@
     font-size: 1.2rem;
   }
 }
+@media (max-width: 575.98px) {
+  .bayc__comm {
+    padding: 1vh 5vw;
+    padding-bottom: 2rem;
+  }
+  .bayc__comm-button_container {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .bayc__comm-button {
+    width: 98%;
+    margin: 5px auto;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
