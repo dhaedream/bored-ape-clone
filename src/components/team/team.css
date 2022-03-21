@@ -42,7 +42,7 @@ margin: 0 auto;
 text-align: center;
 padding-bottom: 2rem;
 }
-.bayc__team-address a{
+.bayc__team-address span {
 color: #bfc500;
 line-height: 2rem;
 }

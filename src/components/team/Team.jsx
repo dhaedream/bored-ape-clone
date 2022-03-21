@@ -44,7 +44,7 @@ const Team = () => {
         </div>
       </div>
     </div>
-          <p className="bayc__team-address">VERIFIED SMART CONTRACT ADDRESS: <a>0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D</a></p>
+          <p className="bayc__team-address">VERIFIED SMART CONTRACT ADDRESS: <span>0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D</span></p>
 
     </>
     
