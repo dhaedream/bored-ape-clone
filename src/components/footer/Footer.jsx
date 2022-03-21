@@ -1,7 +1,11 @@
 import React from "react";
 import "./footer.css";
-import { ArrowForwardOutline } from 'react-ionicons';
-import footApe from "../../assets/bayc-footer.png";
+
+import { ArrowForwardOutline, LogoYoutube,
+  LogoInstagram,
+  LogoDiscord,
+  LogoTwitter, } from 'react-ionicons';
+import footerApe from "../../assets/bayc-footer.png";
 
 const Footer = () => {
   return (
@@ -23,10 +27,42 @@ const Footer = () => {
         </form>
       </div>
       <div className="bayc__footer-logo_container">
-        <img className="bayc__footer-logo" src={footApe} alt="footer-ape" />
+        <img className="bayc__footer-logo" src={footerApe} alt="footer-ape" />
       </div>
       <div className="bayc__footer-links_container">
-        <div className="bayc__footer-links">
+        <div className="bayc__footer-logos">
+          <a>
+            <LogoYoutube
+              color={"#fff"}
+              title={"yt"}
+              height="15px"
+              width="15px"
+            />
+          </a>
+          <a>
+            <LogoInstagram
+              color={"#fff"}
+              title={"ig"}
+              height="15px"
+              width="15px"
+            />
+          </a>
+          <a>
+            <LogoDiscord
+              color={"#fff"}
+              title={"dc"}
+              height="15px"
+              width="15px"
+            />
+          </a>
+          <a>
+            <LogoTwitter
+              color={"#fff"}
+              title={"tw"}
+              height="15px"
+              width="15px"
+            />
+          </a>
         </div>
         <p>© 2021 Yuga Labs LLC</p>
         <p>BAYC Terms & Conditions</p>
