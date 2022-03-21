@@ -51,11 +51,42 @@
   width: 13vw;
 }
 @media screen and (max-width: 992px) {
+  .bayc__club-feature p {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .bayc__club-feature {
+    min-width: 85vw;
+    text-align: justify;
+  }
   .bayc__club-gallery {
     padding-bottom: 3vh;
   }
   .bayc__club-gallery_content-para {
     height: 18vh;
+  }
+
+  .bayc__club-gallery_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0;
+    max-width: 17vw;
+    height: 40vh;
+  }
+  .bayc__club-gallery_content-pic {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    padding-bottom: 1rem;
+  }
+  .bayc__club-gallery_content img {
+    display: flex;
+    width: 14vw;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -107,6 +138,7 @@
     display: flex;
     align-items: flex-start;
     height: 20vh;
+    padding-bottom: 2vh;
   }
   .bayc__club-gallery_content p {
     width: 100%;
