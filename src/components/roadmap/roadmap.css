@@ -117,19 +117,21 @@
   }
 }
 
-/* .bayc__road-yellow-box {
-    background: #bfc500;
-    width: 70vw;
-    height: 70vh;
-    position: static;
-    z-index: -1;
-    margin: 0 auto;
+@media (max-width: 575.98px) {
+  .bayc__road {
+    padding: 3vh 5vw;
   }
-  .bayc__road-shirt {
-    top: 25px;
-    height: 54vh;
-    width: 28vw;
-    position: relative;
-    right: 10vw;
-    z-index: 2;
-  } */
+  .bayc__road h1 {
+    padding-bottom: 1rem;
+  }
+  .bayc__road-feature p {
+    line-height: 1.5rem;
+  }
+  .bayc__road-content_text-section {
+    padding: 2vh 0;
+  }
+  .bayc__road-content_info-container {
+    text-align: start;
+    line-height: 1.7rem;
+  }
+}
