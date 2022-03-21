@@ -12,7 +12,7 @@ import {
   Bathroom,
   Roadmap,
   Community,
-  Team
+  Team, Footer
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -34,6 +34,8 @@ export const App = () => {
       <Community />
       <Line />
       <Team />
+      <Line />
+      <Footer />
     </div>
   );
 };

@@ -11,3 +11,4 @@ export { default as Bathroom } from "./bathroom/Bathroom.jsx";
 export { default as Roadmap } from "./roadmap/Roadmap.jsx";
 export { default as Community } from "./community/Community.jsx";
 export { default as Team } from "./team/Team.jsx";
+export { default as Footer } from "./footer/Footer.jsx";
