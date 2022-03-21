@@ -28,6 +28,7 @@ export const App = () => {
       <Bathroom />
       <Line />
       <Roadmap />
+      <Line />
     </div>
   );
 };

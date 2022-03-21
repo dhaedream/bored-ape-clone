@@ -21,6 +21,7 @@
   padding-bottom: 3vh;
 }
 .bayc__road-bottom_outer-container {
+  padding: 2vh 0;
   display: flex;
   flex-direction: row;
 }
@@ -63,4 +64,49 @@
   height: 54vh;
   width: 28vw;
   position: relative;
+}
+@media screen and (max-width: 992px) {
+  .bayc__road {
+    flex-direction: column;
+    padding: 1vh 8vw;
+    margin: 0 auto;
+  }
+  .bayc__road-bottom_outer-container {
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .bayc__road-media_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+  }
+  .bayc__road-yellow-box {
+    width: 70vw;
+    height: 70vh;
+  }
+    .bayc__road-shirt {
+      height: 84vh;
+      width: 74vw;
+    }
+  }
+
+  /* .bayc__road-yellow-box {
+    background: #bfc500;
+    width: 70vw;
+    height: 70vh;
+    position: static;
+    z-index: -1;
+    margin: 0 auto;
+  }
+  .bayc__road-shirt {
+    top: 25px;
+    height: 54vh;
+    width: 28vw;
+    position: relative;
+    right: 10vw;
+    z-index: 2;
+  } */
 }
