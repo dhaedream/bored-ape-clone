@@ -50,7 +50,9 @@
   background: #bfc500;
   width: 27vw;
   height: 27vw;
+  position: absolute;
 }
 .bayc__road-shirt {
   width: 27vw;
+  position: relative;
 }
