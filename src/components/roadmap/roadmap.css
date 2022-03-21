@@ -134,4 +134,18 @@
     text-align: start;
     line-height: 1.7rem;
   }
+
+  .bayc__road-media_container {
+    width: 100%;
+    height: 65vh;
+    padding-bottom: 1rem;
+  }
+  .bayc__road-yellow-box {
+    width: 85vw;
+    height: 55vh;
+  }
+  .bayc__road-shirt {
+    height: 64vh;
+    width: 94vw;
+  }
 }
