@@ -35,4 +35,23 @@
     flex-direction: column;
     padding: 5vh 8vw;
   }
+  .bayc__comm-feature_container {
+    width: 100%;
+    padding-right: 0;
+  }
+  .bayc__comm-feature-text p {
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+  .bayc__comm-button_container {
+    flex-direction: row;
+    width: 85vw;
+  }
+  .bayc__comm-button {
+    width: 45vw;
+    margin: 5px 5px;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
 }
