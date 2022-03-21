@@ -5,7 +5,7 @@ import ape2 from "../../assets/ape2.png";
 import ape3 from "../../assets/ape3.png";
 import ape4 from "../../assets/ape4.png";
 
-const Feature = () => {
+const Welcome = () => {
   return (
     <div className="bayc__welcome">
       <div className="bayc__welcome-feature_container">
@@ -39,4 +39,4 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default Welcome;
