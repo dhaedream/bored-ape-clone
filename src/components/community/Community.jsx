@@ -6,7 +6,7 @@ const Community = () => {
     <div className="bayc__comm">
       <div className="bayc__comm-feature_container">
         <div className="bayc__comm-feature_title">
-          <h1>ROADMAP ACTIVATIONS</h1>
+          <h1>COMMUNITY TOOLS</h1>
         </div>
         <div className="bayc__comm-feature-text">
           <p>
@@ -19,10 +19,10 @@ const Community = () => {
       </div>
       <div className="bayc__comm-button_container">
         <button className="bayc__comm-button1" type="button">
-          BUY AN APE ON OPENSEA
+          NFTEXP.IO
         </button>
         <button className="bayc__comm-button2" type="button">
-          BUY AN APE ON OPENSEA
+          RARITY.TOOLS
         </button>
       </div>
     </div>
