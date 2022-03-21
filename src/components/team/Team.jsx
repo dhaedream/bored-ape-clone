@@ -38,8 +38,8 @@ const Team = () => {
           <img src={gordy} alt="gordy" />
         </div>
         <div className="bayc__team-img_row2">
-          <img src={sass} alt="sass" />
           <img src={tomato} alt="tomato" />
+          <img src={sass} alt="sass" />
         </div>
       </div>
     </div>

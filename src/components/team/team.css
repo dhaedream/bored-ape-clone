@@ -43,7 +43,7 @@
   }
   .bayc__team-img_container {
     flex-direction: column;
-    padding-top: 2vh;
+    padding-top: 2rem;
   }
   .bayc__team-feature_container {
     min-width: 100%;
@@ -52,11 +52,14 @@
   .bayc__team-img_row1,
   .bayc__team-img_row2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
   }
   .bayc__team-img_container img {
     min-width: 42vw;
     padding: 0.28rem;
+    /* padding-bottom: 0; */
   }
   .bayc__team-feature-text {
     text-align: justify;
