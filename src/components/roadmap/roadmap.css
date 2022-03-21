@@ -20,3 +20,14 @@
   line-height: 1.5rem;
   padding-bottom: 3vh;
 }
+.bayc__road-bottom_outer-container {
+  display: flex;
+  flex-direction: row;
+}
+.bayc__road-content_container {
+  width: 70vw;
+  padding-right: 5vw;
+}
+.bayc__road-shirt {
+  width: 25vw;
+}

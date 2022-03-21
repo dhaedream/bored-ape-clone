@@ -1,6 +1,6 @@
 import React from "react";
 import "./roadmap.css";
-// import shirt from "../../assets/shirt.png";
+import shirt from "../../assets/shirt.png";
 
 const Roadmap = () => {
   return (
@@ -102,7 +102,7 @@ const Roadmap = () => {
         </div>
         <div className="bayc__road-media_container">
           <div className="bayc__road-yellow-box"></div>
-          {/* <img /> */}
+          <img className="bayc__road-shirt" src={shirt} />
         </div>
       </div>
     </div>
