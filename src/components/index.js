@@ -9,3 +9,4 @@ export { default as Specs } from "./specs/Specs.jsx";
 export { default as Club } from "./club/Club.jsx";
 export { default as Bathroom } from "./bathroom/Bathroom.jsx";
 export { default as Roadmap } from "./roadmap/Roadmap.jsx";
+export { default as Community } from "./community/Community.jsx";

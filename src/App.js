@@ -10,7 +10,8 @@ import {
   Specs,
   Club,
   Bathroom,
-  Roadmap
+  Roadmap,
+  Community
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -29,6 +30,7 @@ export const App = () => {
       <Line />
       <Roadmap />
       <Line />
+      <Community />
     </div>
   );
 };
