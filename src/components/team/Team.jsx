@@ -1,7 +1,7 @@
 import React from "react";
 import "./team.css";
-// import ape1 from "../../assets/ape1.png";
-// import ape2 from "../../assets/ape2.png";
+// import garga from "../../assets/ape1.png";
+// import gordy from "../../assets/ape2.png";
 // import ape3 from "../../assets/ape3.png";
 // import ape4 from "../../assets/ape4.png";
 
@@ -16,6 +16,19 @@ const Team = () => {
           <p>
             BAYC was created by four friends who set out to make some dope apes,
             test our skills, and try to build something (ridiculous).
+            <br />
+            <br />
+            <span>GARGAMEL.</span> STARCRAFT OBSESSED. EATS SMURFS.
+            <br />
+            <br />
+            <span>GORDON GONER.</span> REFORMED LEVERAGE ADDICT.
+            <br />
+            <br />
+            <span>EMPEROR TOMATO KETCHUP.</span> SPENT ALL THEIR MONEY ON FIRST
+            PRESSES AND PET-NAT.
+            <br />
+            <br />
+            <span>NO SASS. </span> HERE FOR THE APES. NOT FOR THE SASS.
           </p>
         </div>
       </div>
