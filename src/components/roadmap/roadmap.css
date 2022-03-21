@@ -2,7 +2,7 @@
   padding: 5vh 8vw;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .bayc__road-feature_container {
   display: flex;
@@ -18,4 +18,5 @@
 .bayc__road-feature-text p {
   font-size: 1.1rem;
   line-height: 1.5rem;
+  padding-bottom: 3vh;
 }
