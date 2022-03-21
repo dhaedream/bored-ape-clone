@@ -66,6 +66,19 @@
   position: relative;
 }
 @media screen and (max-width: 992px) {
+  .bayc__road-feature_container {
+    min-width: 100%;
+  }
+  .bayc__road-feature_container p {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .bayc__road-content_container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 1vw;
+  }
   .bayc__road {
     flex-direction: column;
     padding: 1vh 8vw;
@@ -75,6 +88,17 @@
     padding: 2vh 0;
     display: flex;
     flex-direction: column;
+  }
+  .bayc__road-content_span-container {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    margin-right: 2vw;
+  }
+  .bayc__road-content_info-container {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
   }
   .bayc__road-media_container {
     display: flex;
@@ -87,13 +111,13 @@
     width: 70vw;
     height: 70vh;
   }
-    .bayc__road-shirt {
-      height: 84vh;
-      width: 74vw;
-    }
+  .bayc__road-shirt {
+    height: 84vh;
+    width: 74vw;
   }
+}
 
-  /* .bayc__road-yellow-box {
+/* .bayc__road-yellow-box {
     background: #bfc500;
     width: 70vw;
     height: 70vh;
@@ -109,4 +133,3 @@
     right: 10vw;
     z-index: 2;
   } */
-}
