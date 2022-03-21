@@ -20,7 +20,18 @@ const Roadmap = () => {
           </p>
         </div>
       </div>
-      <div className="bayc__road-content_container"></div>
+      <div className="bayc__road-content_container">
+        <div className="bayc__road-content_text-container">
+          <div className="bayc__road-content_text-section">
+            <div className="bayc__road-content_span-container">
+              <span></span>
+            </div>
+            <div className="bayc__road-content_info-container">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
