@@ -14,7 +14,7 @@ import {
   Community,
   Team, 
   Footer,
-  // Bottom
+  Bottom
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -38,7 +38,7 @@ export const App = () => {
       <Team />
       <Line />
       <Footer />
-      {/* <Bottom /> */}
+      <Bottom />
     </div>
   );
 };
