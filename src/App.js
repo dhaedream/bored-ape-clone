@@ -12,7 +12,9 @@ import {
   Bathroom,
   Roadmap,
   Community,
-  Team, Footer
+  Team, 
+  Footer,
+  // Bottom
 } from "./components/index.js";
 export const App = () => {
   return (
@@ -36,6 +38,7 @@ export const App = () => {
       <Team />
       <Line />
       <Footer />
+      {/* <Bottom /> */}
     </div>
   );
 };
