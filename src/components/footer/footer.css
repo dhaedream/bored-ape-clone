@@ -52,10 +52,60 @@ I dont like the original design for md screens... honestly
 */
 @media (max-width: 575.98px) {
   .bayc__footer {
-    /* margin: 1vh 8vh; */
-    padding: 3vh 5vw;
+    padding: 0 5vw;
     flex-direction: column;
   }
+  .bayc__footer-logo_container, .bayc__footer-links_container, .bayc__footer-form_container {
+  max-width: 90vw;
   }
+  .bayc__footer-logo_container {
+    order: -1;
+  }
+  .bayc__footer-ape_logo {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .bayc__footer_form-p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  }
+  .bayc__footer_form-input {
+    width: 50vw;
+    height: 3rem;
+    padding-left: 10px;
+  }
+  .bayc__footer_form-arrow__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b4a4a;
+    height: 3rem;
+    width: 3rem;
+  }
+  .bayc__footer-logos {
+    padding: 4rem 0 1.5rem;
+      justify-content: center;
+  }
+  .bayc__footer-logos a {
+    padding: 0 1rem;
+    transform: scale(1.5);
+  }
+  .bayc__footer-links_paras  {
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 4rem;
+  }
+  .bayc__footer-links_paras p{
+     padding: .3rem 0;
+  }
+  .bayc__footer-link_yellow {
+    color: #bfc500;
+  }
+}
+
+
 
   

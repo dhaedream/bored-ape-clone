@@ -67,9 +67,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="bayc__footer-links_paras">
-          <p>© 2021 Yuga Labs LLC</p>
-          <p>BAYC Terms & Conditions</p>
-          <p>MAYC Terms & Conditions</p>
+          <p className="bayc__footer-link_left">© 2021 Yuga Labs LLC</p>
+          <p className="bayc__footer-link_yellow">BAYC Terms & Conditions</p>
+          <p className="bayc__footer-link_yellow">MAYC Terms & Conditions</p>
         </div>
         
       </div>
