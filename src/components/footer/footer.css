@@ -1,8 +1,42 @@
 .bayc__footer {
   display: flex;
+  flex: 1;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 8vw;
+  width: 100%;
 }
-.bayc__footer-logo {
+.bayc__footer-logo_container, .bayc__footer-links_container, .bayc__footer-form_container {
+  max-width: 30vw;
+}
+.bayc__footer-form_container p {
+  padding-bottom: 1rem;
+}
+.bayc__footer_form-input__row {
+  display: flex;
+}
+.bayc__footer_form-input {
+  width: 180px;
+  height: 1.4rem
+}
+.bayc__footer_form-arrow__button {
+  border: 1px solid #f00;
+  height: 1.4rem
+}
+.bayc__footer-ape_logo {
   width: 200px;
   height: 200px;
+  margin: 0 auto;
+}
+.bayc__footer-links_paras {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bayc__footer-links_paras p{
+    text-align: right;
+}
+.bayc__footer-logos {
+display: flex;
+justify-content: flex-end;
 }

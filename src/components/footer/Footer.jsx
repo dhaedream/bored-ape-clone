@@ -13,10 +13,10 @@ const Footer = () => {
       <div className="bayc__footer-form_container">
         <form>
           <label>
-            <p>GET ON THE LIST</p>
-            <input type="text" name="name" value="Email Address" />
-          </label>
-          <div className="bayc__footer_form-arrow__button">
+            <p className="bayc__footer_form-p">GET ON THE LIST</p>
+            <div className="bayc__footer_form-input__row">
+            <input className="bayc__footer_form-input" type="text" name="name" value="Email Address" />
+            <div className="bayc__footer_form-arrow__button">
           <ArrowForwardOutline
             color={'#00000'} 
             title="arrow"
@@ -24,10 +24,12 @@ const Footer = () => {
             width="25px"
           />
          </div>
+          </div>
+          </label>     
         </form>
       </div>
       <div className="bayc__footer-logo_container">
-        <img className="bayc__footer-logo" src={footerApe} alt="footer-ape" />
+        <img className="bayc__footer-ape_logo" src={footerApe} alt="footer-ape" />
       </div>
       <div className="bayc__footer-links_container">
         <div className="bayc__footer-logos">
@@ -64,9 +66,12 @@ const Footer = () => {
             />
           </a>
         </div>
-        <p>© 2021 Yuga Labs LLC</p>
-        <p>BAYC Terms & Conditions</p>
-        <p>MAYC Terms & Conditions</p>
+        <div className="bayc__footer-links_paras">
+          <p>© 2021 Yuga Labs LLC</p>
+          <p>BAYC Terms & Conditions</p>
+          <p>MAYC Terms & Conditions</p>
+        </div>
+        
       </div>
     </div>
   );
