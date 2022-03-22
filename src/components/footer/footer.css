@@ -44,3 +44,18 @@
   display: flex;
   justify-content: flex-end;
 }
+/* 
+Skipping medium screen @media query configs
+Current design goes well on ipad view
+unsure how to pull orginal design off. nodes go against page flow AND
+I dont like the original design for md screens... honestly
+*/
+@media (max-width: 575.98px) {
+  .bayc__footer {
+    /* margin: 1vh 8vh; */
+    padding: 3vh 5vw;
+    flex-direction: column;
+  }
+  }
+
+  
