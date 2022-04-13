@@ -2,8 +2,10 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Installation](#installation)
+* [Requirements](#requirements)
+* [Status](#status)
+* [Contact](#contact)
 
 ## General Info
 
