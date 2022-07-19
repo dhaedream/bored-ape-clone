@@ -38,7 +38,7 @@ This project is guaranteed to work on the latest NPM + Node versions.
 I created this project using node v16.14.2 and npm v8.5.0.
 
 ## Status
-This project can be improved. I would enable a wider range on font weights. The google-fonts are not as bold or thin as the original. I would enable router-dom v6 to add more pages. I could add an nft marketplace connected to a test blockchain network using ethers.js.
+This project can be improved. The google-fonts are not as bold or thin as the original. I would enable router-dom v6 to add more pages. I could add an nft marketplace connected to a test blockchain network using ethers.js.
 
 ## Contact
 [LinkedIn](www.linkedin.com/in/dhaedream)
